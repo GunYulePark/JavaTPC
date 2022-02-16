@@ -11,7 +11,7 @@ public class TPC04 {
 		}
 
 		for(int x:array) {
-			System.out.print("  "+x);
+			System.out.print(" "+x);
 		}
 			
 	}
