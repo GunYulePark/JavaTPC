@@ -14,8 +14,9 @@ public class TPC04 {
 		arr[0]=a;
 		arr[1]=b;
 		arr[2]=c;
-		
+		      
 		sum1(arr);
+		System.out.println(arr.length);
 	}
 	
 	public static void sum(int x, int y, int z) {
