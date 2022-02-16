@@ -24,8 +24,8 @@ public class TPC03 {
 		PersonVO p; // argument: nickName; realName;address;phoneNumber;
 		p=new PersonVO();
 		p.nickName="yule_mu";
-		p.realName="¹Ú°Ç·ü";
-		p.address="Çª¸¥¼Ö";
+		p.realName="¹úÄ­·ü";
+		p.address="Çª¸¥·Î";
 		p.phoneNumber="010-8000-8000";
 		System.out.print(p.nickName+"\t(");
 		System.out.print(p.realName+"\t");
