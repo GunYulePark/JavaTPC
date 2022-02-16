@@ -26,7 +26,7 @@ public class TPC03 {
 		p.nickName="yule_mu";
 		p.realName="¹Ú°Ç·ü";
 		p.address="Çª¸¥¼Ö·Î";
-		p.phoneNumber="010-8460-8640";
+		p.phoneNumber="010-8000-8000";
 		System.out.print(p.nickName+"\t(");
 		System.out.print(p.realName+"\t");
 		System.out.print(p.address+"\t");
