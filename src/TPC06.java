@@ -27,16 +27,12 @@ public class TPC06 {
 	
 	// 여러개의 값을 return하고 싶을 때. > return array
 	public static int[] makeArr() {
-		int x=10;
-		int y=20;
-		int z=30;
+		int[] arr=new int[3];
+		for(int i=0; i<arr.length; i++) {
+			arr[i]=(i+1)*10;
+		}
 		
-		int[] list=new int[3];
-		list[0]=x;
-		list[1]=y;
-		list[2]=z;
-		
-		return list;
+		return arr;
 	}
 	
 }
