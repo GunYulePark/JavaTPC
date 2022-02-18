@@ -15,8 +15,8 @@ public class TPC05 {
 		// 3x3 9개의 정수형 변수를 만들어라
 		
 		int[][] arr=new int[3][3];
-		for(int i=0; i<3; i++) {
-			for(int j=0; j<3; j++) {
+		for(int i=0; i<arr.length; i++) {
+			for(int j=0; j<arr[i].length; j++) {
 				arr[i][j]=(i*3)+(j+1);
 			}
 		}
