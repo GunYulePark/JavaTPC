@@ -17,7 +17,7 @@ public class TPC07 {
 		float v=a+b;
 		return v;
 	}
-	
+
 	public static int arrSum(int[] arr) {
 		int sum=0;
 		for (int x:arr) {

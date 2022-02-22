@@ -5,7 +5,7 @@ public class TPC08 {
 		// TODO Auto-generated method stub
 		int a=30;
 		int b=50;
-		int v=sum(a, b);
+		int v=sum(a, b); // static method call - 글 기울어져 있다.
 		System.out.println(v);
 	}
 	
