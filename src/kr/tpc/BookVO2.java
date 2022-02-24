@@ -10,7 +10,7 @@ public class BookVO2 {
 	
 	// 객체지향에서는 함수의 이름이 같아도 argument의 개수 or type이 다르면 서로 다른 함수로 인식해서 error가 발생하지 않는다.
 	// default constructor method
-	public BookVO2() { 
+	public BookVO2() {
 		this.title="제목";
 		this.price=00000;
 		this.company="출판사";

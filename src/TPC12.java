@@ -9,6 +9,5 @@ public class TPC12 {
 		System.out.print(b2.price+"\t");
 		System.out.print(b2.company+"\t");
 		System.out.println(b2.page);
-		//
 	}
 }
