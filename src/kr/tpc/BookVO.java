@@ -5,4 +5,5 @@ public class BookVO {
 	public int price;
 	public String company;
 	public int page;
+	
 }
