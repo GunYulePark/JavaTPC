@@ -5,7 +5,7 @@ public class TPC09 {
 		// TODO Auto-generated method stub
 		int a=56;
 		int b=40;
-		TPC09 tpc=new TPC09(); // 객체 생성 : heap area에. 맨 앞 TPC09는 class type
+		TPC09 tpc=new TPC09(); // 객체 생성 : heap area에. 맨 앞 TPC09는 classType
 		int v=tpc.sum(a, b);
 		System.out.println(v);
 
