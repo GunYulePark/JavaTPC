@@ -16,6 +16,5 @@ public class TPC10 {
 		System.out.print(b.company+", ");
 		System.out.print(b.page+")");
 		System.out.println();
-		System.out.println(1);
 	}
 }
