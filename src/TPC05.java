@@ -1,4 +1,3 @@
-
 public class TPC05 {
 
 	public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class TPC05 {
 		}
 		System.out.println(sum);
 		
-		// 3x3 9°³ÀÇ Á¤¼öÇü º¯¼ö¸¦ ¸¸µé¾î¶ó
+		// 3x3 9ê°œì˜ ì •ìˆ˜í˜• ë³€ìˆ˜ë¥¼ ë§Œë“¤ì–´ë¼
 		
 		int[][] arr=new int[3][3];
 		for(int i=0; i<arr.length; i++) {
@@ -23,13 +22,13 @@ public class TPC05 {
 			System.out.println();
 		}
 		
-		// °¡º¯±æÀÌ ¹è¿­
+		// ê°€ë³€ê¸¸ì´ ë°°ì—´
 		int[][] star=new int[5][];
 		for(int i=0; i<star.length; i++) {
 			star[i]=new int[i+1];
 			for(int j=0; j<star[i].length; j++) {
 				star[i][j]='*';
-				System.out.print((char)star[i][j]+"\t"); //ascii code·Î Ãâ·ÂµÇ´Ï±î (char)·Î º¯È¯.
+				System.out.print((char)star[i][j]+"\t"); //ascii codeë¡œ ì¶œë ¥ë˜ë‹ˆê¹Œ (char)ë¡œ ë³€í™˜.
 			}		
 			System.out.println();
 		}

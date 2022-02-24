@@ -1,16 +1,15 @@
-
 public class TPC06 {
 
 	public static void main(String[] args) {
-		// 5. ¸Ş¼­µå > µ¿ÀÛ(method), ±âÁõ(function)
-		// Á¤¼ö 2°³¸¦ ´õÇÏ¿© ÃÑÇÕÀ» ±¸ÇÏ¿© returnÇÏ´Â method¸¦ Á¤ÀÇÇÏ½Ã¿À.
+		// 5. ë©”ì„œë“œ > ë™ì‘(method), ê¸°ì¦(function)
+		// ì •ìˆ˜ 2ê°œë¥¼ ë”í•˜ì—¬ ì´í•©ì„ êµ¬í•˜ì—¬ returní•˜ëŠ” methodë¥¼ ì •ì˜í•˜ì‹œì˜¤.
 		int a=2;
 		int b=3;
 		
 		int result=sum(a, b);
 		System.out.println(result);
 		
-		// °ª ¿©·¯°³ array·Î return ¹Ş±â
+		// ê°’ ì—¬ëŸ¬ê°œ arrayë¡œ return ë°›ê¸°
 		int[] arr=makeArr();
 		int result2=0;
 		for(int x:arr) {
@@ -25,7 +24,7 @@ public class TPC06 {
 	}
 	
 	
-	// ¿©·¯°³ÀÇ °ªÀ» returnÇÏ°í ½ÍÀ» ¶§. > return array
+	// ì—¬ëŸ¬ê°œì˜ ê°’ì„ returní•˜ê³  ì‹¶ì„ ë•Œ. > return array
 	public static int[] makeArr() {
 		int[] arr=new int[3];
 		for(int i=0; i<arr.length; i++) {
