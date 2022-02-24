@@ -5,10 +5,10 @@ public class BookDTO {
 	public int price;
 	public String company;
 	public int page;
-	// µðÆúÆ® »ý¼ºÀÚ ¸Þ¼­µå(»ý·«µÊ)
+	// ë””í´íŠ¸ ìƒì„±ìž ë©”ì„œë“œ(ìƒëžµë¨)
 	public BookDTO() {
-		// °´Ã¼¸¦ »ý¼ºÇÏ´Â ÀÛ¾÷ ¼öÇà (±â°è¾î ÄÚµå ´Ü¿¡¼­ heap¸Þ¸ð¸®¿¡ »ý¼º)
-		// ±×·¯¸é¼­ ÀÚ±âÀÚ½ÅÀ» °¡¸®Å°´Â 'this'¶ó´Â °´Ã¼µµ ¸¸µé¾îÁø´Ù.
+		// ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ” ìž‘ì—… ìˆ˜í–‰ (ê¸°ê³„ì–´ ì½”ë“œ ë‹¨ì—ì„œ heapë©”ëª¨ë¦¬ì— ìƒì„±)
+		// ê·¸ëŸ¬ë©´ì„œ ìžê¸°ìžì‹ ì„ ê°€ë¦¬í‚¤ëŠ” 'this'ë¼ëŠ” ê°ì²´ë„ ë§Œë“¤ì–´ì§„ë‹¤.
 		super();
 	}
 }

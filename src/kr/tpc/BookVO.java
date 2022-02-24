@@ -1,5 +1,5 @@
 package kr.tpc;
-// Ã¥(Object)-> Á¦¸ñ, °¡°İ, ÃâÆÇ»ç, ÆäÀÌÁö ¼ö...
+// ì±…(Object)-> ì œëª©, ê°€ê²©, ì¶œíŒì‚¬, í˜ì´ì§€ ìˆ˜...
 public class BookVO {
 	public String title;
 	public int price;

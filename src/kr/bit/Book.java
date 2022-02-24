@@ -1,9 +1,8 @@
 package kr.bit;
-// Ã¥(°´Ã¼) -> Á¦¸ñ, °¡°İ, ÃâÆÇ»ç, ÆäÀÌÁö¼ö...(»óÅÂÁ¤º¸) + (ÇàÀ§Á¤º¸: µ¿ÀÛ=method)
-public class Book { // °´Ã¼ÁöÇâ¿¡¼­ classÀÇ ¿ªÇÒ: »õ·Î¿î ÀÚ·áÇüÀ» ¸¸µå´Â µµ±¸
-	public String title; // StringÀº datatypeÀÌ ¾Æ´Ï¶ó ±âº»ÀûÀ¸·Î Á¦°øµÇ´Â class
+// ì±…(ê°ì²´) -> ì œëª©, ê°€ê²©, ì¶œíŒì‚¬, í˜ì´ì§€ìˆ˜...(ìƒíƒœì •ë³´) + (í–‰ìœ„ì •ë³´: ë™ì‘=method)
+public class Book { // ê°ì²´ì§€í–¥ì—ì„œ classì˜ ì—­í• : ìƒˆë¡œìš´ ìë£Œí˜•ì„ ë§Œë“œëŠ” ë„êµ¬
+	public String title; // Stringì€ datatypeì´ ì•„ë‹ˆë¼ ê¸°ë³¸ì ìœ¼ë¡œ ì œê³µë˜ëŠ” class
 	public int price;
 	public String company;
 	public int page;
 }
-
