@@ -8,7 +8,7 @@ public class TPC11 {
 		b.title="Graph QL in Action";
 		b.price=16000;
 		b.company="Hanbitmidea";
-		// 한글 테스트
+		// ADFSFJSDKLFJK dsfjsdklf - 한글 테스트
 
 	}
 
