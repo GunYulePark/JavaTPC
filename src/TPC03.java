@@ -4,19 +4,19 @@ import kr.bit.PersonVO;
 public class TPC03 {
 
 	public static void main(String[] args) {
-		// °ü°è¸¦ ÀÌÇØÇÏ¶ó. PDT vs. UDDT
-		// Á¤¼ö 1°³¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö¸¦ ¼±¾ğÇÏ½Ã¿À.
+		// ê´€ê³„ë¥¼ ì´í•´í•˜ë¼. PDT vs. UDDT
+		// ì •ìˆ˜ 1ê°œë¥¼ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ì‹œì˜¤.
 		int a;
 		a=10;
 		
-		// Ã¥ 1±ÇÀ» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö¸¦ ¼±¾ğÇÏ½Ã¿À
+		// ì±… 1ê¶Œì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ì‹œì˜¤
 		Book b;
 		b=new Book(); // argument: title price company page
-		b.title="µ·ÀÇ ¼Ó¼º";
+		b.title="ëˆì˜ ì†ì„±";
 		b.price=15000;
 		b.company="snowfox";
 		b.page=350;
-		System.out.print(b.title+"\t("); // ´Ù¸¥ °Å »ğÀÔÇÏ·Á¸é print·Î ÇØ¾ßÇÑ´Ù.
+		System.out.print(b.title+"\t("); // ë‹¤ë¥¸ ê±° ì‚½ì…í•˜ë ¤ë©´ printë¡œ í•´ì•¼í•œë‹¤.
 		System.out.print(b.price+"\t");
 		System.out.print(b.company+"\t");
 		System.out.println(b.page+")");
@@ -24,8 +24,8 @@ public class TPC03 {
 		PersonVO p; // argument: nickName; realName;address;phoneNumber;
 		p=new PersonVO();
 		p.nickName="yule_mu";
-		p.realName="¹úÄ­·ü";
-		p.address="Çª¸¥·Î";
+		p.realName="ë²Œì¹¸ë¥ ";
+		p.address="í‘¸ë¥¸ë¡œ";
 		p.phoneNumber="010-8000-8000";
 		System.out.print(p.nickName+"\t(");
 		System.out.print(p.realName+"\t");

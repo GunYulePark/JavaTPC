@@ -1,15 +1,14 @@
-
 public class TPC04 {
 
 	public static void main(String[] args) {
-		// 4. µ¥ÀÌÅÍ¸¦ ÀÌµ¿ÇÏ¶ó(º¯¼ö vs ¹è¿­)
-		// 1) º¯¼ö
+		// 4. ë°ì´í„°ë¥¼ ì´ë™í•˜ë¼(ë³€ìˆ˜ vs ë°°ì—´)
+		// 1) ë³€ìˆ˜
 		int a,b,c;
 		a=10;
 		b=20;
 		c=30;
 		sum(a,b,c);
-		// 2) ¹è¿­
+		// 2) ë°°ì—´
 		int[] arr=new int[3];
 		arr[0]=a;
 		arr[1]=b;
@@ -39,4 +38,3 @@ public class TPC04 {
 //		System.out.print(" "+x);
 //	}	
 }
-		

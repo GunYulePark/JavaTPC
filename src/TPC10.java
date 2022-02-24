@@ -5,10 +5,10 @@ public class TPC10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BookDTO b=new BookDTO();
-		// '.':ÂüÁ¶. b.ÀÌ¸é b°¡ °¡¸®Å°´Â °÷ 
+		// '.':ì°¸ì¡°. b.ì´ë©´ bê°€ ê°€ë¦¬í‚¤ëŠ” ê³³ 
 		b.title="Graph QL";
 		b.price=16000;
-		b.company="ÇÑºû¹Ìµğ¾î";
+		b.company="í•œë¹›ë¯¸ë””ì–´";
 		b.page=170;
 		
 		System.out.print(b.title+" (");

@@ -9,12 +9,12 @@ public class TPC02 {
 		c=a+b;
 		System.out.println(c);
 		
-		float f; //float¶ó°í ÇÏ¸é ±âº»ÀûÀ¸·Î double·Î ÀúÀåµÊ.
-		f=34.5f; // float·Î ÀúÀåÇÏ±â À§ÇØ¼± ¸¶Áö¸· f ºÙ¿©¾ß.
+		float f; //floatë¼ê³  í•˜ë©´ ê¸°ë³¸ì ìœ¼ë¡œ doubleë¡œ ì €ìž¥ë¨.
+		f=34.5f; // floatë¡œ ì €ìž¥í•˜ê¸° ìœ„í•´ì„  ë§ˆì§€ë§‰ f ë¶™ì—¬ì•¼.
 		System.out.println(f);
 		
 		char d;
-		d='A'; // charÀº '', stringÀº ""
+		d='A'; // charì€ '', stringì€ ""
 		System.out.println(d);
 		
 		boolean g;
@@ -22,7 +22,7 @@ public class TPC02 {
 		
 		System.out.println(g);
 		
-		// Book bk; > ÀÌ°Ç TPC03¿¡¼­
+		// Book bk; > ì´ê±´ TPC03ì—ì„œ
 
 	}
 
