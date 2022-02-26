@@ -11,7 +11,7 @@ public class TPC13_1 {
 //		pp.java(); // > 이거 되지만 굳이 이렇게 하는 사람 없다. static이니까 바로 PrivatePracitice.java()로 하지.
 		// 객체 생성해서 접근 하는 방식
 	
-		 PrivatePractice_1.java();
+		PrivatePractice_1.java();
 		// static에 있으니까 객체 생성하지 않고도 접근 가능.
 	}
 

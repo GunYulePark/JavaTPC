@@ -5,12 +5,12 @@ public class PrivatePractice_1 {
 //	일단 TPC13_1에선 private 적용시키지 않는다.
 //	private PrivatePractice_1() {}
 	
-	// Instance method
+	// Instance method: 객체 생성 후 접근
 	public void tpc() {
 		System.out.println("Is there any 'tpc' out there?");
 	}
 	
-	// Class method
+	// Class method : 클래스 이름으로 접근
 	public static void java() {
 		System.out.println("I can touch you 'java'!");
 	}

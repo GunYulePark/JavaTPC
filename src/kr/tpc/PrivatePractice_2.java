@@ -6,12 +6,12 @@ public class PrivatePractice_2 {
 		
 	}
 	
-	// Instance method
+	// Instance method : 객체 생성 후 접근. 그런데 private으로 접근 막아버림.
 	public void tpc() {
 		System.out.println("Is there any 'tpc' out there?");
 	}
 	
-	// Class method
+	// Class method : class 이름으로 접근
 	public static void java() {
 		System.out.println("I can touch you 'java'!");
 	}
