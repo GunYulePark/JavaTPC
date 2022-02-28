@@ -6,7 +6,7 @@ public class TPC16 {
 //		맨 처음 초기화 해서 하는 방법
 		BookDTO4 dto1=new BookDTO4("파이썬", 15000, "나랑출판사", 300);
 		System.out.println(dto1.toString());
-		// toString은 생략 가능
+		// .toString은 생략 가능
 		System.out.println(dto1);
 		
 		
