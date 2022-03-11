@@ -6,7 +6,7 @@ public class TPC20 {
 
 	public static void main(String[] args) {
 //		Dog, Cat --> Animal
-		
+//		15. Override 1번 케이스
 		Dog d=new Dog();
 		d.eat();
 		
@@ -19,14 +19,14 @@ public class TPC20 {
 		
 //		Animal < [Dog.class, Cat.class]
 //		Animal을 통해 Dog와 Cat을 실행시키는 방법
+//		15. override 2번 케이스
+		Animal ani=new Dog();
+		ani.eat();
+//		ani.follow(); // 이건 안됨. Animal(부모)가 Dog(자식)의 기능을 상속받은 것은 아니잖냐
 		
-//		Animal ani=new Dog();
-//		ani.eat();
-////		ani.follow(); // 이건 안됨. Animal(부모)가 Dog(자식)의 기능을 상속받은 것은 아니잖냐
-//		
-//		
-//		Animal ani=new Cat();
-//		ani.eat();
+		
+		Animal ani2=new Cat();
+		ani2.eat();
 	}
 
 }
