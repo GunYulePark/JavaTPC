@@ -31,7 +31,7 @@ public class TPC21 {
 //		앞으로 적용 : 부모 클래스가 object인 경우. API에서 그런 경우 많다. 부모 클래스로 자식 클래스 조종하는 경우.
 //		Object는 Animal 위에 있다.
 		Object o=new Dog();
-//		o.eat(); XXX o의 형이 Object로 아직 이걸로는 Dog 형 컨트롤할 수 없다.
+//		o.eat(); XXX o의 형이 Object로 아직 이걸로는 Dog 형 컨트롤할 수 없다..
 		((Dog)o).eat();
 	}
 
