@@ -21,6 +21,10 @@ public class TPC21 {
 //		ani.night(); 작동X. Animal형인 ani에는 night()가 없다.
 //		downcasting 
 //		upcasting이 되면 반드시 downcasting이 된다.
+
+		((Cat)ani).night();
+		// test. gitub 적용 되나??
+		//
 		
 		Cat c=(Cat)ani;
 		c.night();
