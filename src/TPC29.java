@@ -11,6 +11,6 @@ public class TPC29 {
 		Object o=new A();
 		((A)o).display();
 		System.out.println(o.toString());
+//		override한 문구 출력
 	}
-
 }
