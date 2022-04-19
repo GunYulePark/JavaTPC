@@ -11,7 +11,10 @@ public class A extends Object {
 	public void display() {
 		System.out.println("나는 A이다.");
 	}
-
+	
+	public void go() {
+		System.out.println("A 앞으로!");
+	}
 	@Override
 	public String toString() {
 		return "재정의된 method입니다.";
