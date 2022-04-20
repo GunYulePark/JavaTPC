@@ -26,14 +26,25 @@ public class TPC30 {
 				((B)o[i]).go();
 			}
 		}
+		
+		printGo(o);
 	}
 	
-	public static void dp(Object o) {
+	private static void printGo(Object[] o) {
+		for(int i=0;i<o.length;i++) {
+			if (o[i] instanceof A) {
+				((A)o[i]).go();
+			} else if(o[i] instanceof B) {
+				((B)o[i]).go();
+			}
+		}
+	}
+
+	public static void dp(Object o) { // 다형성 인수
 		if (o instanceof A) {
 			((A)o).go();
 		} else if(o instanceof B) {
 			((B)o).go();
 		}
 	}
-	
 }
